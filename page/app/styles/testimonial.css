@@ -1,0 +1,25 @@
+@tailwind utilities;
+
+@layer utilities {
+	.testimonial-card {
+		@apply bg-[#003d23] bg-opacity-95 rounded-2xl p-4 text-white relative max-w-[600px] text-left mx-4 overflow-hidden;
+		.info {
+			@apply flex items-center gap-4 my-8 z-[10];
+			img {
+				@apply bg-[#e6e6e6] object-cover rounded-full;
+			}
+			div {
+				@apply text-left;
+				.details {
+					@apply flex items-center mt-2 text-[#fbb400];
+				}
+			}
+		}
+	}
+}
+
+.svg {
+	position: absolute;
+	bottom: -28px;
+	right: -1px;
+}

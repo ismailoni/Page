@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+	.mysection {
+		@apply text-center py-8  px-4  max-w-[1200px] min-h-screen m-auto overflow-hidden gap-4 flex flex-col items-center justify-center;
+	}
+	.mysection .text-section {
+		@apply flex flex-col items-center gap-2 text-xl max-w-[900px];
+	}
+	.text-section h2 {
+		@apply text-3xl font-bold;
+	}
+	.subheading {
+		@apply tracking-[10px]  text-base font-bold;
+	}
+	.subheading h2 {
+		@apply capitalize py-4 text-4xl  max-w-[1024px] font-extrabold;
+	}
+	.subheading p {
+		@apply text-[#545454] max-w-[900px] text-3xl;
+	}
+}
