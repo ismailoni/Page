@@ -4,6 +4,7 @@ import { ProgramsLayout } from "./programlayout"
 import { CardLayout } from "./cardlayout"
 import { Program, ProgramsCard } from "./programscard"
 import data from '@/app/components/data.json'
+import Footer from "../components/molecules/footer"
 
 export interface ProgramsLayoutProps {
     programs: Program[];
@@ -321,6 +322,7 @@ export default function ProgramsPage () {
                     ))}
                 </div>
             </ProgramsLayout>
+            <Footer />
         </div>
     )
 }

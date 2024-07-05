@@ -1,4 +1,5 @@
 import Nav from "../components/molecules/Nav";
+import Footer from "../components/molecules/footer";
 import { Achievements } from "./achievements";
 import { Classroom } from "./classroom";
 import { CTA } from "./cta";
@@ -20,6 +21,7 @@ export default function AcademicsPage () {
             <Classroom />
             <PastMembers />
             <CTA />
+            <Footer />
         </div>
     )
 }

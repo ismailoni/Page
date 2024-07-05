@@ -10,13 +10,13 @@ import FAQs from "@/app/components/molecules/FAQs";
 import Testimonials from "@/app/components/molecules/Testimonials";
 import AnnualDues from "./components/molecules/annualdues";
 import Support from "./components/molecules/support";
-import Footer from "./components/molecules/footer";
 import FAQ from "@/app/components/molecules/FAQs";
+import Footer from "./components/molecules/footer";
 // import Countdown from "./components/molecules/countdown";
 
 export default function Home() {
 	return (
-		<main className="max-w-screen overflow-x-hidden">
+		<main className="max-w-screen overflow-x-hidden bg-white">
 			<Nav />
 			<Hero />
 			<Calender />
