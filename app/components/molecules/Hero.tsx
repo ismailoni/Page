@@ -10,14 +10,13 @@ export default function Hero() {
 		<section className="hero">
 			<div className="text-section">
 				<Btn
-				className="font-bold px-6 py-4"
-					children={"👋  As Salaamu Alaykum..."}
+					className="font-bold px-6 py-4"
 					styles={{
 						backgroundColor: "#907cff80 ",
 						color: "#907CFF",
 						margin: "2rem 0",
 					}}
-				/>
+				>👋  As Salaamu Alaykum...</Btn>
 				<h1>
 					The Converging Point for Muslim Students in the University of Lagos
 				</h1>
@@ -28,11 +27,11 @@ export default function Hero() {
 				</p>
 
 				<Btn
-				className="font-bold px-6 py-4 gap-3"
+					className="font-bold px-6 py-4 gap-3"
 					styles={{
 						margin: "2rem 0",
 					}}>
-					Become a Member 
+					Become a Member
 					<MdArrowForward size={20} />
 				</Btn>
 			</div>

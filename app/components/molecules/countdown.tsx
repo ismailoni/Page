@@ -1,5 +1,6 @@
 
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Countdown () {
   return (
@@ -27,7 +28,7 @@ export default function Countdown () {
                 <div className="text-sm text-muted-foreground">Minutes</div>
               </div>
             </div>
-            <img
+            <Image
               src="/placeholder.svg"
               width="600"
               height="300"

@@ -40,7 +40,7 @@ export const Organs = () => {
             </div>
             <div className="grid grid-cols-3 gap-8 m-16">
                 {organsData.map((organ, i) => (
-                    <OrgansCard name={organ.name} content={organ.content} tag={organ.tag} images={organ.images} />
+                    <OrgansCard key={i} name={organ.name} content={organ.content} tag={organ.tag} images={organ.images} />
                 ))}
             </div>
         </section>

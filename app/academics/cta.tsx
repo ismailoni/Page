@@ -10,8 +10,8 @@ export const CTA = () => {
         <div className="ctabg-custom-svg bg-green-800">
             <div className="my-12">
                 <div className="flex gap-[-6] justify-center my-12">
-                    {CTAData.map((cta) => (
-                        <CTACard title={cta.title} content={cta.content} cta={cta.cta} tag={cta.tag} image={cta.image} />
+                    {CTAData.map((cta, i) => (
+                        <CTACard key={i} title={cta.title} content={cta.content} cta={cta.cta} tag={cta.tag} image={cta.image} />
                     ))}
                 </div>
             </div>

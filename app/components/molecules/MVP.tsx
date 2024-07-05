@@ -6,15 +6,15 @@ import Image from "next/image";
 export default function MVP() {
 	return (
 		<div className="MVP-section relative">
-			{/* BACKGRROUND IMAGE  */}
+			{/* BACKGROUND IMAGE */}
 			<Image
 				src={"/MVP-bg.svg"}
-				className="absolute top-0  opacity-30 w-full h-full object-cover"
+				className="absolute top-0 opacity-30 w-full h-full object-cover"
 				width={500}
 				height={500}
 				alt=""
 			/>
-			{/* BACKGRROUND IMAGE  */}
+			{/* BACKGROUND IMAGE */}
 
 			<MVPCard id="3" name="Khalid Adekoya" title="Amir." src="/Amir.svg">
 				<p className="section-heading">AMIR'S LEADERSHIP</p>
@@ -23,20 +23,19 @@ export default function MVP() {
 					My experience with MSSN UNILAG is that of a timid young boy entering
 					the University of Lagos with no kini and that. Within my stay on
 					campus, I am transformed to become kinikan. Morally, spiritually and
-					intellectually and I help transformed others when given the batton and
+					intellectually and I help transformed others when given the baton and
 					mandate. My experience with MSSN UNILAG is that of a timid young boy
 					entering the University of Lagos with no kini and that.
 				</p>
 				<p>MSSN UNILAG is the best that has happened to me.</p>
 				<p>
 					For the sake of structure, I will populate this space with words that
-					would later be edited. But the koko is that you get it and if you don
-					t get it my brother, you have no option but to forget about it
+					would later be edited. But the koko is that you get it and if you don&apos;t get it my brother, you have no option but to forget about it.
 				</p>
 				<p>
 					So how is your experience as well with UNILAG? Maybe we can have
 					series of them here and a clear picture of those saying them at the
-					left. It s damn important.
+					left. It&apos;s damn important.
 				</p>
 				<p>You get?</p>
 			</MVPCard>
@@ -52,7 +51,7 @@ export default function MVP() {
 			<MVPCard
 				id="4"
 				isReversed
-				name="Khalid Adekoya "
+				name="Khalid Adekoya"
 				title="Prof."
 				src="/Prof.svg">
 				<p className="section-heading">GUIDANCE OF WISDOM</p>
@@ -66,19 +65,18 @@ export default function MVP() {
 					My experience with MSSN UNILAG is that of a timid young boy entering
 					the University of Lagos with no kini and that. Within my stay on
 					campus, I am transformed to become kinikan. Morally, spiritually and
-					intellectually and I help transformed others when given the batton and
+					intellectually and I help transformed others when given the baton and
 					mandate.
 				</p>
 				<p>MSSN UNILAG is the best that has happened to me.</p>
 				<p>
 					For the sake of structure, I will populate this space with words that
-					would later be edited. But the koko is that you get it and if you don
-					t get it my brother, you have no option but to forget about it
+					would later be edited. But the koko is that you get it and if you don&apos;t get it my brother, you have no option but to forget about it.
 				</p>
 				<p>
 					So how is your experience as well with UNILAG? Maybe we can have
 					series of them here and a clear picture of those saying them at the
-					left. It s damn important.
+					left. It&apos;s damn important.
 				</p>
 				<p> You get?</p>
 				<p>Staff Adviser, 2023/2024</p>

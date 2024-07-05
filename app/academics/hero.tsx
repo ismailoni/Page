@@ -11,7 +11,9 @@ export const AcademicsHero = () => {
                     <HeroText />
                 </div>
                 <div className='w-1/3 m-8'>
-                    <HeroCard id={""} src={image} title={"DOS, Branch"} name={'Yusuf Habeeb'} children={undefined} />
+                    <HeroCard id={""} src={image} title={"DOS, Branch"} name={'Yusuf Habeeb'} >
+                        <div></div>
+                    </HeroCard>
                 </div>
             </div>
         </div>

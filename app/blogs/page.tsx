@@ -40,7 +40,7 @@ export const BlogsPage: React.FC = () => {
             </div>
             <div className="flex flex-col gap-8 m-12">
                 {blogData.map((blog, i) => (
-                    <BlogCard firstname={blog.firstname} post={blog.post} lastname={blog.lastname} date={blog.date} title={blog.title} content={blog.content} minsRead={blog.minsRead} image={blog.image} tags={blog.tags} />
+                    <BlogCard key={i} firstname={blog.firstname} post={blog.post} lastname={blog.lastname} date={blog.date} title={blog.title} content={blog.content} minsRead={blog.minsRead} image={blog.image} tags={blog.tags} />
                 ))
                 }
             </div>

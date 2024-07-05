@@ -301,19 +301,19 @@ export const ProgramsPage = () => {
                     <BackgroundContent title="Programs" buttonContent="Learn More" />
                 </BackgroundLayout>
                 <div>
-                    {programsData.map((layout) => (
-                        <CardLayout isSlider={layout.isSlider} definitionColor={layout.definitionColor} definitionTitle={layout.definitionTitle} definitionContent={layout.definitionContent}>
+                    {programsData.map((layout, i) => (
+                        <CardLayout key={i} isSlider={layout.isSlider} definitionColor={layout.definitionColor} definitionTitle={layout.definitionTitle} definitionContent={layout.definitionContent}>
                             {layout.isSlider && <div className="flex overflow-x-auto">
                                 <div className="flex overflow-x-auto gap-4">
-                                {layout.programs.map((program) => (
-                                    <ProgramsCard program={program} />
+                                {layout.programs.map((program, i) => (
+                                    <ProgramsCard key={i} program={program} />
                                 ))}
                             </div>
                             </div>}
                             {!layout.isSlider &&
                                 <div className="grid grid-cols-3 gap-4">
-                                    {layout.programs.map((program) => (
-                                        <ProgramsCard program={program} />
+                                    {layout.programs.map((program, i) => (
+                                        <ProgramsCard key={i} program={program} />
                                     ))}
                                 </div>
                             }

@@ -18,7 +18,7 @@ export default function TestimonialCard({
 }) {
 	return (
 		<div className="testimonial-card">
-			{/* BACKGRROUND IMAGE  */}
+			{/* BACKGROUND IMAGE  */}
 			<Image
 				src={"testimonial-bg.svg"}
 				className="absolute bottom-0 left-0 w-full h-full -z-[1] object-cover"
@@ -26,7 +26,7 @@ export default function TestimonialCard({
 				height={500}
 				alt=""
 			/>
-			{/* BACKGRROUND IMAGE  */}
+			{/* BACKGROUND IMAGE  */}
 
 			<Image
 				src={"/testimonial.svg"}
@@ -36,7 +36,7 @@ export default function TestimonialCard({
 				className="svg"
 			/>
 
-			<p className="z-10">"{comment}"</p>
+			<p className="z-10">&quot;{comment}&quot;</p>
 			<div className="info">
 				<Image src={img} alt={img} height={60} width={60} />
 				<div>

@@ -14,7 +14,7 @@ export const AllResources = () => {
                 </div>
                 <div className="grid grid-cols-3 gap-8 m-16">
                     {resourcesData.map((resource, i) => (
-                        <ResourceCard title={resource.title} content={resource.content} tags={resource.tags} />
+                        <ResourceCard key={i} title={resource.title} content={resource.content} tags={resource.tags} />
                     ))}
                 </div>
             </div>

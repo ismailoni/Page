@@ -56,7 +56,7 @@ export default function Nav() {
 
 			<div className="nav-btn">
 				<Btn
-				className="font-bold px-6 py-4" children={"Join Us"} />
+				className="font-bold px-6 py-4">Join Us</Btn>
 			</div>
 		</nav>
 	);
