@@ -1,8 +1,7 @@
-import Nav from "../components/molecules/Nav";
 import NewsletterLayout from "./layout";
-import { Mustaqeem } from "./mustaqeem";
 
-const NewslettersPage = () => {
+
+export default function NewslettersPage () {
     return (
         <div>
             <NewsletterLayout />
@@ -10,4 +9,4 @@ const NewslettersPage = () => {
     )
 }
 
-export default NewslettersPage;
+

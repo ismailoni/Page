@@ -8,7 +8,7 @@ import { AllResources } from "./resources";
 import { Timetable } from "./timetable";
 import { Tutorial } from "./tutorial";
 
-export const AcademicsPage = () => {
+export default function AcademicsPage () {
     return (
         <div className="bg-white">
             <Nav />
@@ -24,4 +24,3 @@ export const AcademicsPage = () => {
     )
 }
 
-export default AcademicsPage;

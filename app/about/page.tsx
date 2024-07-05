@@ -8,7 +8,7 @@ import { Executives } from "./executives"
 import { AboutHero } from "./hero"
 import { Organs } from "./organs"
 
-export const AboutPage = () => {
+export default function AboutPage () {
     return (
         <div className="bg-white">
             <Nav />
@@ -30,4 +30,3 @@ export const AboutPage = () => {
     )
 }
 
-export default AboutPage;

@@ -292,7 +292,7 @@ const programsData: ProgramsLayoutProps[] = [{
 }]
 
 
-export const ProgramsPage = () => {
+export default function ProgramsPage () {
     const { programs } = data;
     return (
         <div className="bg-white">
@@ -325,4 +325,3 @@ export const ProgramsPage = () => {
     )
 }
 
-export default ProgramsPage

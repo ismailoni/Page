@@ -18,7 +18,7 @@ const blogData: BlogCardProps[] = [
     { firstname: 'Musa', lastname: 'AbdulKareem', date: 'October 02, 2021', title: 'I’m Religious, But I Can’t Stop Masturbating.', content: 'I am a university student who is about to graduate. I have a secured job after graduation. I have found a girl whom I plan to marry after graduation. I attend the Masjid regularly. I pray the 5 prayers. I help organize community events. I have good friend group. I eat halal. I exercise a few  times a week. I visit parents on some weekends. I am memorizing Quran. Alhamdulillah. Yet, despite these things, I’ve had trouble with porn and masturbation. I’ve consciously fought for over three years, yet to no avail. I’m ashamed.', minsRead: 5, image: blogcardimage, post: 'Naibul Amir', tags: [{ tag: 'Aqeedah', color: '#4BC1F0' }] },
     { firstname: 'Musa', lastname: 'AbdulKareem', date: 'October 02, 2021', title: 'I’m Religious, But I Can’t Stop Masturbating.', content: 'I am a university student who is about to graduate. I have a secured job after graduation. I have found a girl whom I plan to marry after graduation. I attend the Masjid regularly. I pray the 5 prayers. I help organize community events. I have good friend group. I eat halal. I exercise a few  times a week. I visit parents on some weekends. I am memorizing Quran. Alhamdulillah. Yet, despite these things, I’ve had trouble with porn and masturbation. I’ve consciously fought for over three years, yet to no avail. I’m ashamed.', minsRead: 5, image: blogcardimage, post: 'Naibul Amir', tags: [{ tag: 'Aqeedah', color: '#4BC1F0' }] }]
 
-export const BlogsPage: React.FC = () => {
+export default function BlogsPage () {
     const [searchTerm, setSearchTerm] = useState('')
     return (
         <div className="bg-white">
@@ -50,5 +50,3 @@ export const BlogsPage: React.FC = () => {
         </div>
     )
 }
-
-export default BlogsPage;
