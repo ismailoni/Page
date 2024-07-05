@@ -12,12 +12,12 @@ import AnnualDues from "./components/molecules/annualdues";
 import Support from "./components/molecules/support";
 import Footer from "./components/molecules/footer";
 import FAQ from "@/app/components/molecules/FAQs";
-import Countdown from "./components/molecules/countdown";
+// import Countdown from "./components/molecules/countdown";
 
 export default function Home() {
 	return (
 		<main className="max-w-screen overflow-x-hidden">
-			{/* <Nav />
+			<Nav />
 			<Hero />
 			<Calender />
 			<CoreValues />
@@ -29,8 +29,8 @@ export default function Home() {
 			<FAQ />
 			<FAQs />
 			<Support />
-			<Footer /> */}
-			<Countdown />
+			<Footer />
+			{/* <Countdown /> */}
 		</main>
 	);
 }
