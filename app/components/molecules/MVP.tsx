@@ -17,7 +17,7 @@ export default function MVP() {
 			{/* BACKGROUND IMAGE */}
 
 			<MVPCard id="3" name="Khalid Adekoya" title="Amir." src="/Amir.svg">
-				<p className="section-heading">AMIR'S LEADERSHIP</p>
+				<p className="section-heading">AMIR&apos;S LEADERSHIP</p>
 				<h2>Inspiring Guidance, Dedicated Service</h2>
 				<p>
 					My experience with MSSN UNILAG is that of a timid young boy entering
