@@ -36,7 +36,7 @@ export default function Countdown () {
               className="mx-auto aspect-[2/1] overflow-hidden rounded-xl object-cover object-center sm:w-full"
             />
             <div className="text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our baby is under construction</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our baby is under construction.</h2>
             </div>
           </div>
         </section>
