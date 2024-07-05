@@ -18,21 +18,21 @@ export default function Testimonials() {
 			<div className="cards-section flex-col md:flex-row w-full">
 				<TestimonialCard
 					comment={
-						"MSSN Unilag played a pivotal role in my journey through university. The organization provided a supportive community that enriched my spiritual and intellectual life. The programs and activities not only strengthened my faith but also equipped me with the moral compass needed to navigate the professional world. I am grateful for the lifelong friendships and invaluable lessons I gained.."
+						"My admission to the University of Lagos came with excitement and anticipation. Despite coming from a practicing Muslim home, it was the Muslim Students' Society of Nigeria (MSSN) UNILAG that solidified my faith. Initially skeptical due to misconceptions, I discovered MSSN's true intent and fell in love with my faith. Through weekly programs, my connection with Allah deepened, and my sense of modesty increased. MSSN UNILAG greatly impacted my lifestyle and contributed significantly to my overall growth."
 					}
-					author="Ahmed Oluwaseun"
-					dep="Mechanical Engineering"
-					lvl="300 Level"
+					author="Fareedah Bello"
+					dep="English Education"
+					lvl="200 Level"
 					img="/ahmed.svg"
 				/>
 
 				<TestimonialCard
 					comment={
-						"Being part of MSSN Unilag has been an enlightening experience. The	regular and weekly programs have deepened my understanding of Islam and			have been crucial in my personal development. The community here feels		like a second family, always ready to offer support and guidance. MSSN 		Unilag has truly been a cornerstone of my university life."
+						" wish to express my heartfelt gratitude for your immense guidance and support throughout my time at UNILAG. MSSN has been a constant source of inspiration, motivation, and direction, helping me overcome challenges in practicing my Deen in a university environment. Programs like Dawah camp, Faculty forums, Mubaf, Daily Tahfiz, and An-Nashrah have strengthened my faith, developed valuable skills, and built lasting relationships. I am forever grateful for being part of this community and look forward to giving back."
 					}
-					author="Aisha Muhammed"
-					dep="Medicine and Surgery"
-					lvl="Class of 2022"
+					author="Abdulkareem Abdul Quddus "
+					dep="Pet and Gas."
+					lvl="300 Level"
 					img="/aisha.svg"
 				/>
 			</div>
