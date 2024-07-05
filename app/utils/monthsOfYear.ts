@@ -1,0 +1,28 @@
+export const monthsOfYear = [
+	"January",
+	"Feburary",
+	"March",
+	"April",
+	"May",
+	"June",
+	"July",
+	"August",
+	"September",
+	"October",
+	"November",
+	"December",
+];
+export const monthsOfHijirYear = [
+	"Muharam",
+	"Safar",
+	"Rabiul Awwal",
+	"Rabiul Thanni",
+	"Jumadal Awwal",
+	"Jumadal Thanni",
+	"Rajab",
+	"Shaban",
+	"Ramadan",
+	"Shawwal",
+	"Dhul Qajjah",
+	"Dhul hijjah",
+];

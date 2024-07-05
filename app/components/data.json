@@ -1,0 +1,210 @@
+{
+	"navList": [
+		{ "name": "Home", "link": "/" },
+		{ "name": "About Us", "link": "/" },
+		{
+			"name": "Our Programs ",
+			"link": "/",
+			"subList": [
+				{ "name": "Program 1", "link": "/our-programs/program1" },
+				{ "name": "Program 2", "link": "/our-programs/program2" },
+				{ "name": "Program 3", "link": "/our-programs/program3" },
+				{ "name": "Program 4", "link": "/our-programs/program4" }
+			]
+		},
+		{ "name": "Academics", "link": "/" },
+		{
+			"name": "Islam",
+			"link": "/",
+			"subList": [
+				{ "name": "Islamic Studies", "link": "/islam/studies" },
+				{ "name": "Quranic Studies", "link": "/islam/quranic-studies" },
+				{ "name": "Hadith Studies", "link": "/islam/hadith-studies" },
+				{ "name": "Fiqh Studies", "link": "/islam/fiqh-studies" }
+			]
+		}
+	],
+	"jumptoNavList": [
+		"Calendar",
+		"Core Values",
+		"Programs",
+		"Amir",
+		"Staff Adviser",
+		"Testimonials",
+		"Annual Dues",
+		"Newsletter",
+		"Donation",
+		"FAQs"
+	],
+	"coreValues": [
+		{
+			"name": "Spirituality",
+			"img": "/spirituality.svg",
+			"desc": "We are going to write a little explanation about spirituality here. We are going to write a little explanation about spirituality here"
+		},
+		{
+			"name": "Intellectuality",
+			"img": "/intellectuality.svg",
+			"desc": "We are going to write a little explanation about spirituality here. We are going to write a little explanation about spirituality here"
+		},
+		{
+			"name": "Morality",
+			"img": "/morality.svg",
+			"desc": "We are going to write a little explanation about spirituality here. We are going to write a little explanation about spirituality here"
+		}
+	],
+	"programs": [
+		{
+			"name": "Tahfiz Class",
+			"img": "/programs.svg",
+			"desc": "Short explanation of what the Madrasah entails, when it’s held and other necessary infomation",
+			"color": "#907CFF",
+			"btn": "Regular"
+		},
+		{
+			"name": "Tuesday Programs",
+			"img": "/programs.svg",
+			"desc": "Short explanation of what the Madrasah entails, when it’s held and other necessary infomation",
+			"color": "#FBB400",
+			"btn": "Weekly"
+		},
+		{
+			"name": "Freshers Orientation",
+			"img": "/programs.svg",
+			"desc": "Short explanation of what the Madrasah entails, when it’s held and other necessary infomation",
+			"color": "#FF5A5F",
+			"btn": "Adhoc"
+		},
+		{
+			"name": "Madrasah",
+			"img": "/programs.svg",
+			"desc": "Short explanation of what the Madrasah entails, when it’s held and other necessary infomation",
+			"color": "#907CFF",
+			"btn": "Regular"
+		},
+		{
+			"name": "Faculty Forum",
+			"img": "/programs.svg",
+			"desc": "Short explanation of what the Madrasah entails, when it’s held and other necessary infomation",
+			"color": "#FBB400",
+			"btn": "Regular"
+		}
+	],
+	"FAQs": [
+		{
+			"Q": "What is MSSN Unilag?",
+			"A": "MSSN Unilag stands for the Muslim Students Society of Nigeria, University of Lagos branch. It is an organization dedicated to promoting the spiritual, intellectual, and moral development of Muslim students on campus."
+		},
+		{
+			"Q": "How can I join MSSN Unilag?",
+			"A": "Joining MSSN Unilag is easy! Simply attend our meetings or programs, and register as a member during any of our events. You can also contact us through our website or social media platforms for more information."
+		},
+		{
+			"Q": "What types of programs does MSSN Unilag offer?",
+			"A": "MSSN Unilag offers a wide range of programs, including regular study sessions, weekly discussions, adhoc events, and spiritual retreats. Our programs are designed to enrich the spiritual, intellectual, and moral growth of our members."
+		},
+		{
+			"Q": "How can I contribute to MSSN Unilag?",
+			"A": "Contributions to MSSN Unilag can be made in various ways, such as participating in our programs, volunteering for events, and paying annual dues. Your support helps us continue to provide valuable resources and activities for our members"
+		},
+		{
+			"Q": "Who can I contact for more information or assistance?",
+			"A": "For more information or assistance, you can reach out to our staff adviser or any member of the executive team. Contact details are available on our website s Contact Us page."
+		}
+	],
+	"footerList": {
+		"contact": {
+			"heading": "Contact",
+			"body": [
+				{
+					"value": "mssnunilag@gmail.com",
+					"link": "mssnunilag@gmail.com"
+				},
+				{
+					"value": "Amir",
+					"link": "Amir"
+				},
+				{
+					"value": "Amirah",
+					"link": "Amirah"
+				},
+				{
+					"value": "General Secretary",
+					"link": "General Secretary"
+				}
+			]
+		},
+		"pages": {
+			"heading": "Pages",
+			"body": [
+				{
+					"value": "About Us",
+					"link": "/pages/about"
+				},
+				{
+					"value": "Our Programs",
+					"link": "/pages/programs"
+				},
+				{
+					"value": "Academics",
+					"link": "/pages/academics"
+				},
+				{
+					"value": "Islam",
+					"link": "/pages/islam"
+				},
+				{
+					"value": "Blogs",
+					"link": "/pages/blogs"
+				},
+				{
+					"value": "Newsletters",
+					"link": "/pagse/newsletters"
+				}
+			]
+		},
+		"others": {
+			"heading": "Useful Links",
+			"body": [
+				{
+					"value": "Become a Member",
+					"link": "/"
+				},
+				{
+					"value": "Academic Drive",
+					"link": "/"
+				},
+				{
+					"value": "Donate to MSSN Unilag",
+					"link": "/"
+				}
+			]
+		},
+		"office": {
+			"heading": "Office",
+			"body": [
+				{
+					"value": "Room 3, Department of Finance, Faculty of Management Sciences, University of Lagos, Akoka, Lagos State, Nigeria.",
+					"link": "/"
+				},
+				{
+					"value": "Academic Drive",
+					"link": "/"
+				}
+			]
+		},
+		"downloads": {
+			"heading": "Download",
+			"body": [
+				{
+					"value": "/playstore.svg",
+					"link": "/"
+				},
+				{
+					"value": "/appstore.svg",
+					"link": "/"
+				}
+			]
+		}
+	}
+}
