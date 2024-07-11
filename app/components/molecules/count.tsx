@@ -16,7 +16,7 @@ export default function Count() {
 
     useEffect(() => {
         // Set the date we're counting down to
-        const countDownDate = new Date("July 12, 2024 00:00:00").getTime();
+        const countDownDate = new Date("July 20, 2024 00:00:00").getTime();
 
         // Update the countdown every second
         const interval = setInterval(() => {
