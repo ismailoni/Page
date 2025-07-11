@@ -12,7 +12,7 @@ export default function Newsletters() {
         <p className="text-[#888888]">
           Stay informed and inspired with Al Mustaqeem, our official newsletter.
           Subscribe to receive the latest updates, insightful articles, and news
-          about our community’s spiritual, intellectual, and moral endeavors.
+          about our community&apos;s spiritual, intellectual, and moral endeavors.
           Keep up with MSSN Unilag and never miss out on important events and
           opportunities.
         </p>
@@ -46,7 +46,7 @@ export default function Newsletters() {
           <p>
             ...the official newsletter of MSSN Unilag. Our newsletter is designed to
             keep you informed and inspired with the latest updates, insightful articles,
-            and news about our community’s spiritual, intellectual, and moral endeavors.
+            and news about our community&apos;s spiritual, intellectual, and moral endeavors.
           </p>
           <ul className="list-disc ml-4 space-y-1">
             <li>Regular updates on upcoming events and programs</li>

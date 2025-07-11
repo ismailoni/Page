@@ -133,7 +133,7 @@ export default function Calender() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4 }}
           >
-            <p>TODAY'S DATE</p>
+            <p>TODAY&apos;S DATE</p>
             <h2 className="font-extrabold text-3xl md:text-4xl lg:text-5xl">
               {hijrahDay}th {monthsOfHijirYear[parseInt(hijrahMonth) - 1]},{" "}
               {hijrahYear}AH
