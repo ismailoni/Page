@@ -9,9 +9,9 @@ export default function CoreValues() {
 	return (
 		<section id="2" className="mysection bg-white">
 			<div className="text-section">
-				<p className="subheading text-[#49c4a2]">CORE VALUES</p>
-				<h2>Guiding Lights, in Every Step</h2>
-				<p>
+				<p className="subheading text-[#OF9932]">OUR CORE VALUES</p>
+				<h2 className="text-[#141414]">Guiding Lights, in Every Step</h2>
+				<p className="text-[#888888]">
 					At MSSN Unilag, our core values are the foundation of our community.
 					These golden principles guide our actions, shape our programs, and
 					inspire our members to strive for excellence in building a balanced
@@ -31,8 +31,8 @@ export default function CoreValues() {
 							alt="School Mosque.svg"
 						/>
 						<div className="text-center">
-							<h3> {value.name} </h3>
-							<p>{value.desc}</p>
+							<h3 className="text-[#141414]"> {value.name} </h3>
+							<p className='text-[#888888]'>{value.desc}</p>
 						</div>
 					</div>
 				))}

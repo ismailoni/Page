@@ -1,21 +1,15 @@
 {
 	"navList": [
 		{ "name": "Home", "link": "/" },
-		{ "name": "About Us", "link": "/" },
+		{ "name": "About Us", "link": "/about" },
 		{
 			"name": "Our Programs ",
-			"link": "/",
-			"subList": [
-				{ "name": "Program 1", "link": "/our-programs/program1" },
-				{ "name": "Program 2", "link": "/our-programs/program2" },
-				{ "name": "Program 3", "link": "/our-programs/program3" },
-				{ "name": "Program 4", "link": "/our-programs/program4" }
-			]
+			"link": "/programs"
 		},
-		{ "name": "Academics", "link": "/" },
+		{ "name": "Academics", "link": "/academics" },
 		{
 			"name": "Islam",
-			"link": "/",
+			"link": "/islam",
 			"subList": [
 				{ "name": "Islamic Studies", "link": "/islam/studies" },
 				{ "name": "Quranic Studies", "link": "/islam/quranic-studies" },

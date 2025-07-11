@@ -5,10 +5,10 @@ import "@/app/styles/testimonial.css";
 export default function Testimonials() {
 	return (
 		<section id="5" className="mysection ">
-			<div className="text-section">
+			<div className="text-section flex flex-col gap-4">
 				<p className="subheading text-[#4BC1F0]">TESTIMONIALS</p>
-				<h2>Words from our Community</h2>
-				<p>
+				<h2 className="text-[#141414]">Words from our Community</h2>
+				<p className="text-[#888888]">
 					Discover heartfelt stories and experiences from our members and
 					alumni, showcasing the transformative impact of MSSN Unilag on their
 					spiritual, intellectual, and moral growth.
@@ -23,7 +23,7 @@ export default function Testimonials() {
 					author="Fareedah Bello"
 					dep="English Education"
 					lvl="200 Level"
-					img="/ahmed.svg"
+					img="/aisha.svg"
 				/>
 
 				<TestimonialCard
@@ -33,7 +33,7 @@ export default function Testimonials() {
 					author="Abdulkareem Abdul Quddus "
 					dep="Pet and Gas."
 					lvl="300 Level"
-					img="/aisha.svg"
+					img="/ahmed.svg"
 				/>
 			</div>
 

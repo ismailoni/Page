@@ -1,129 +1,97 @@
+'use client';
 import React from "react";
 import data from "@/app/components/data.json";
 import Image from "next/image";
 import Link from "next/link";
+import { FaLinkedin, FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 export default function Footer() {
-	const { contact, pages, others, office, downloads } = data.footerList;
-	return (
-		<footer className=" p-4 max-w-[1600px] w-full flex flex-col items-center justify-center mx-auto ">
-			<div className="flex flex-wrap justify-between items-start w-full mx-auto">
-				<Lists heading={contact.heading} lists={contact.body} />
-				<Lists heading={pages.heading} lists={pages.body} />
-				<Lists heading={office.heading} lists={contact.body} />
-				<div className="">
-					<Lists heading={others.heading} lists={others.body} />
-					<Lists heading={downloads.heading} lists={downloads.body} />
-				</div>
-			</div>
+  const { contact, pages, others, office, downloads } = data.footerList;
 
-			{/* HORIZONTAL LINE  */}
-			<div
-				className="hr my-8 w-full h-1"
-				style={{
-					width: "100%",
-				}}
-			/>
-			<div className="flex flex-col md:flex-row  gap-4 justify-between w-full">
-				<div>
-					<div className="nav-logo">
-						<Image
-							src={"/unilag-logo.svg"}
-							width={40}
-							height={40}
-							alt="unilag-logo.svg"
-						/>
-						<p>
-							University of Lagos{" "}
-							<span className="font-thin"> © 2024 MSSN Unilag</span>
-						</p>
-					</div>
-				</div>
-				<p>
-					<span className="mx-2">
-						{" "}
-						<Image
-							src={"/linkedin_symbol.svg"}
-							width={30}
-							height={30}
-							alt="linkedin_symbol.svg"
-							className="inline"
-						/>{" "}
-						LinkedIn
-					</span>
-					<span className="mx-2">
-						{" "}
-						<Image
-							src={"/facebook_symbol.svg"}
-							width={30}
-							height={30}
-							alt="facebook_symbol.svg"
-							className="inline"
-						/>
-						Facebook
-					</span>
-					<span className="mx-2">
-						{" "}
-						<Image
-							src={"/instagram_logo.svg"}
-							width={30}
-							height={30}
-							alt="instagram_logo.svg"
-							className="inline"
-						/>
-						Instagram
-					</span>
-					<span className="mx-2">
-						{" "}
-						<Image
-							src={"/x_logo.svg"}
-							width={30}
-							height={30}
-							alt="x_logo.svg"
-							className="inline"
-						/>
-						X (Twitter)
-					</span>
-				</p>
-			</div>
-		</footer>
-	);
+  return (
+    <footer className="bg-white border-t mt-12 p-6 md:p-12 max-w-[1600px] mx-auto w-full">
+      <div className="flex flex-wrap gap-8 justify-between w-full">
+        <Lists heading={contact.heading} lists={contact.body} />
+        <Lists heading={pages.heading} lists={pages.body} />
+        <Lists heading={others.heading} lists={others.body} />
+        <div className="flex flex-col gap-6 min-w-[150px]">
+          <Lists heading={office.heading} lists={office.body} />
+          <Lists heading={downloads.heading} lists={downloads.body} />
+        </div>
+      </div>
+
+      <div className="my-8 w-full border-t" />
+
+      <div className="flex flex-col md:flex-row items-center justify-between gap-4 w-full">
+        <div className="flex items-center gap-2">
+          <Image src="/unilag-logo.svg" width={40} height={40} alt="Unilag logo" />
+          <p className="text-gray-700 text-sm text-center md:text-left">
+            University of Lagos <span className="font-thin">© 2025 MSSN Unilag</span>
+          </p>
+        </div>
+
+        <div className="flex flex-wrap justify-center md:justify-start gap-4">
+          <SocialIcon href="https://linkedin.com" Icon={FaLinkedin} label="LinkedIn" />
+          <SocialIcon href="https://facebook.com" Icon={FaFacebook} label="Facebook" />
+          <SocialIcon href="https://instagram.com" Icon={FaInstagram} label="Instagram" />
+          <SocialIcon href="https://x.com" Icon={FaXTwitter} label="X (Twitter)" />
+        </div>
+      </div>
+    </footer>
+  );
 }
 
-// import React from 'react'
-
-export function Lists({
-	lists,
-	heading,
+function Lists({
+  heading,
+  lists,
 }: {
-	heading: string;
-	lists: { value: string; link: string }[];
+  heading: string;
+  lists: { value: string; link: string }[];
 }) {
-	return (
-		<ul className={"mb-4 mr-4"}>
-			<h4 className="font-bold">{heading}</h4>
-			{lists.map((item, i) => (
-				<li
-					className={`text-[#545454] ${
-						item.value.slice(-3).includes("svg") && "inline"
-					}`}
-					key={i}>
-					{" "}
-					<Link href={item.link}>
-						{item.value.slice(-3).includes("svg") ? (
-							<Image
-								src={item.value}
-								width={80}
-								height={80}
-								className="inline "
-								alt="unilag-logo.svg"
-							/>
-						) : (
-							item.value
-						)}{" "}
-					</Link>
-				</li>
-			))}
-		</ul>
-	);
+  return (
+    <div className="flex-1 min-w-[150px]">
+      <h4 className="font-semibold mb-2">{heading}</h4>
+      <ul className="space-y-1">
+        {lists.map((item, i) => (
+          <li key={i} className="max-w-[290px] text-sm">
+            <Link
+              href={item.link}
+              className="text-gray-600 hover:text-green-600 transition-colors duration-200"
+            >
+              {item.value}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function SocialIcon({
+  href,
+  Icon,
+  label,
+}: {
+  href: string;
+  Icon: React.ElementType;
+  label: string;
+}) {
+  return (
+    <Link
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group flex items-center gap-1 text-gray-600 hover:text-green-600 transition-all"
+    >
+      <motion.div
+        whileHover={{ scale: 1.3, rotate: 10 }}
+        whileTap={{ scale: 0.9 }}
+        className="flex items-center justify-center"
+      >
+        <Icon className="w-5 h-5" />
+      </motion.div>
+      <span className="hidden md:inline text-sm">{label}</span>
+    </Link>
+  );
 }

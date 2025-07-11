@@ -1,7 +1,5 @@
 import React from "react";
-import Btn from "../atoms/btn";
 import "@/app/styles/hero.css";
-import { IoIosArrowRoundForward } from "react-icons/io";
 import { MdArrowForward } from "react-icons/md";
 import Image from "next/image";
 
@@ -9,31 +7,23 @@ export default function Hero() {
 	return (
 		<section className="hero">
 			<div className="text-section">
-				<Btn
-					className="font-bold px-6 py-4"
-					styles={{
-						backgroundColor: "#907cff80 ",
-						color: "#907CFF",
-						margin: "2rem 0",
-					}}
-				>👋  As Salaamu Alaykum...</Btn>
-				<h1>
-					The Converging Point for Muslim Students in the University of Lagos
+				<button
+					className="font-medium px-8 py-2 bg-[#FBB40026] text-[#141414] my-[2rem] mx-0"
+				
+				>👋  As Salaamu Alaykum...</button>
+				<h1 className="text-[#141414] font-bold text-5xl">
+					Welcome to MSSN UNILAG – your Growth Community.
 				</h1>
 				<p>
-					Human makes a society. There is no us without you and that’s what
-					makes your need our utmost concern. Human makes a society. There is no
-					us without you.
+					We are a student led body that caters for the well-being of all Muslim students on campus. We are poised towards helping you achieve unprecedented growth in your spiritual and academic life.
 				</p>
 
-				<Btn
-					className="font-bold px-6 py-4 gap-3"
-					styles={{
-						margin: "2rem 0",
-					}}>
+				<button
+					className="font-bold px-6 py-4 gap-3 bg-[#0F9932] my-[2rem] mx-0"
+					>
 					Become a Member
 					<MdArrowForward size={20} />
-				</Btn>
+				</button>
 			</div>
 
 			{/* BACKGROUND IMAGE        */}

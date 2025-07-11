@@ -9,17 +9,17 @@ import FAQs from "@/app/components/molecules/FAQs";
 import Testimonials from "@/app/components/molecules/Testimonials";
 import AnnualDues from "./components/molecules/annualdues";
 import Support from "./components/molecules/support";
-import FAQ from "@/app/components/molecules/FAQs";
+// import FAQ from "@/app/components/molecules/FAQs";
 import Footer from "./components/molecules/footer";
 // import Countdown from "./components/molecules/countdown";
-import Count from "./components/molecules/count";
+// import Count from "./components/molecules/count";
 // import Countdown from "./components/molecules/countdown";
 
 export default function Home() {
 	return (
-		<main className="max-w-screen overflow-x-hidden bg-white">
+		<main className="max-w-screen overflow-x-hidden bg-white font-archivo">
 			<Nav />
-			<Count />
+			{/* <Count /> */}
 			<Hero />
 			<Calender />
 			<CoreValues />
@@ -28,7 +28,7 @@ export default function Home() {
 			<Testimonials />
 			<Newsletters />
 			<AnnualDues />
-			<FAQ />
+			{/* <FAQ /> */}
 			<FAQs />
 			<Support />
 			<Footer />
