@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Tags } from "../blogs/tags";
+// import { Tags } from "../blogs/tags";
 import { Tag } from "./tag";
 
 export interface OrganImagesProps {

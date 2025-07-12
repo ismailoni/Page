@@ -1,4 +1,4 @@
-import { url } from "inspector";
+// import { url } from "inspector";
 
 export interface BackgroundLayoutProps {
     image: string;

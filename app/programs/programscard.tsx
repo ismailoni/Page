@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Btn from "../components/atoms/btn";
+import button from "../components/atoms/button";
 import { BsDot } from "react-icons/bs";
 
 
@@ -8,7 +8,7 @@ export interface Program {
     name: string;
     desc: string;
     color: string;
-    btn: string;
+    button: string;
 }
 
 
@@ -25,7 +25,7 @@ export const ProgramsCard = ({ program }: { program: Program }) => {
             <div className="card-text text-left m-6">
                 <h3 className="text-left font-bold"> {program.name} </h3>
                 <p className="text-left">{program.desc}</p>
-                <Btn
+                <button
                     styles={{
                         border: "1px solid  " + program.color,
                         color: program.color,
@@ -34,7 +34,7 @@ export const ProgramsCard = ({ program }: { program: Program }) => {
                     className={`card-btn  hover:bg-[${program.color}]`}>
                     <BsDot />
                     {program.btn}
-                </Btn>
+                </button>
             </div>
         </div>
     );

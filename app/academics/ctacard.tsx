@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Tag, TagsProps } from "../blogs/tags";
-import Btn from "../components/atoms/btn";
 
 export interface CTACardProps {
     title: string;
@@ -24,7 +23,7 @@ export const CTACard = (props: CTACardProps) => {
                     <p className="text-center text-white text-sm">{props.content}</p>
                 </div>
                 <div className="flex justify-center my-6">
-                    <Btn className="px-5 py-3 font-semibold">{props.cta}</Btn>
+                    <button className="px-5 py-3 font-semibold">{props.cta}</button>
                 </div>
             </div>
             <div className="flex justify-center">

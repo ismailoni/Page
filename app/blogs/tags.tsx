@@ -1,5 +1,4 @@
 import { BsDot } from "react-icons/bs";
-import Btn from "../components/atoms/btn";
 
 export interface TagsProps {
     tag: string;
@@ -11,16 +10,11 @@ export const Tag = ({ tag, color, rounded }: TagsProps) => {
     return (
         <div className="flex justify-between py-3">
             <div>
-                <Btn
-                    styles={{
-                        border: "1px solid  " + color,
-                        color: color,
-                        backgroundColor: "transparent",
-                    }}
-                    className={`card-btn  hover:bg-[${color}] rounded-[${rounded}]`}>
+                <button
+                    className={`card-button  hover:bg-[${color}] rounded-[${rounded}] border-[${color}] text-[${color}] bg-transparent`}>
                     <BsDot />
                     {tag}
-                </Btn>
+                </button>
             </div>
         </div>
     )

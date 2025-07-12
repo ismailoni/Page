@@ -1,8 +1,8 @@
 import React from "react";
 import "@/app/styles/mvp.css";
 import ExecutiveCard from "./executivescard";
-import Image from "next/image";
-import image from '@/public/MVP-bg.svg'
+// import Image from "next/image";
+// import image from '@/public/MVP-bg.svg'
 import namiradmin from '@/public/excos/nameeradmin.svg'
 import namirdawah from '@/public/excos/namirdawah.svg'
 import amir from '@/public/excos/amir.svg'
