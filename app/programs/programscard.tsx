@@ -1,5 +1,4 @@
 import Image from "next/image";
-import button from "../components/atoms/button";
 import { BsDot } from "react-icons/bs";
 
 
@@ -26,14 +25,9 @@ export const ProgramsCard = ({ program }: { program: Program }) => {
                 <h3 className="text-left font-bold"> {program.name} </h3>
                 <p className="text-left">{program.desc}</p>
                 <button
-                    styles={{
-                        border: "1px solid  " + program.color,
-                        color: program.color,
-                        backgroundColor: "transparent",
-                    }}
-                    className={`card-btn  hover:bg-[${program.color}]`}>
+                    className={`card-btn  hover:bg-[${program.color}] border border-[${program.color}] text-[${program.color}] bg-transparent`}>
                     <BsDot />
-                    {program.btn}
+                    {program.button}
                 </button>
             </div>
         </div>

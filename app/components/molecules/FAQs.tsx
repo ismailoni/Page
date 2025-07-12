@@ -20,7 +20,7 @@ export default function FAQ() {
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Your Questions, Answered</h2>
         <p className="text-gray-500">
           Find answers to the most frequently asked questions about MSSN Unilag. Whether you're
-          curious about our programs, events, or membership, we’ve got you covered with detailed and
+          curious about our programs, events, or membership, we&apos;ve got you covered with detailed and
           helpful information to guide you.
         </p>
       </div>
