@@ -40,9 +40,9 @@
 
 .executive-bg {
   background-image: url('../public/MVP-bg.svg');
-  background-size: cover; 
+  background-size: cover;
   background-position: center; 
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 button {
