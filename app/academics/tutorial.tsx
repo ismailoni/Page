@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import tutorialImage from '@/public/about masjid.svg'
+import tutorialImage from '@/public/aboutmasjid.svg'
 import { TutorialText } from './tutorialtext'
 
 
