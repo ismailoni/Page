@@ -1,25 +1,25 @@
 import { HeroText } from "./herotext"
 import Image from "next/image"
-import image from "@/public/about masjid.svg"
 // import HeroCard from "./herocard"
 
 export const AboutHero = () => {
     return (
-        <div className="bg-white mt-16">
-            {/* BACKGRROUND IMAGE  */}
-			<Image
-				src={image}
-				className="absolute top-0  opacity-30 w-full h-full object-cover"
-				width={500}
-				height={500}
-				alt=""
-			/>
-			{/* BACKGRROUND IMAGE  */}
-            <div className="hero flex gap-5">
-                <div className='w-2/3 m-8 mt-16'>
+        <div
+            className="bg-white mt-16 max-w-[95%] min-h-[660px] border rounded-lg mx-auto"
+            style={{
+                backgroundImage: "url('/aboutmasjid.svg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                opacity: 0.97,
+            }}
+        >
+            {/* BACKGROUND IMAGE replaced with CSS */}
+            <div className="hero flex flex-col md:flex-row gap-5">
+                <div className='w-full md:w-2/3 mx-8 mt-8 md:mt-20'>
                     <HeroText />
                 </div>
-                <div className='w-1/3 m-8'>
+                <div className='w-full md:w-1/3 m-8'>
                     {/* <HeroCard id={""} src={image} title={"DOS, Branch"} name={'Yusuf Habeeb'} children={undefined} /> */}
                 </div>
             </div>
