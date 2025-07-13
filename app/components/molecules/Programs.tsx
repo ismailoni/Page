@@ -96,15 +96,15 @@ export default function Programs() {
                 <span
                   className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium
                   ${
-                    value.btn === "Regular"
+                    value.tag === "Regular"
                       ? "bg-purple-50 text-purple-600"
-                      : value.btn === "Weekly"
+                      : value.tag === "Weekly"
                       ? "bg-yellow-50 text-yellow-600"
                       : "bg-red-50 text-red-600"
                   }`}
                 >
                   <BsDot className="text-lg" />
-                  {value.btn}
+                  {value.tag}
                 </span>
               </div>
             </div>

@@ -52,31 +52,36 @@
 			"name": "Tahfiz Class",
 			"img": "/programs.svg",
 			"desc": "Short explanation of what the Madrasah entails, when it’s held and other necessary infomation",
-			"color": "#907CFF"
+			"color": "#907CFF",
+			"tag": "Regular"
 		},
 		{
 			"name": "Tuesday Programs",
 			"img": "/programs.svg",
 			"desc": "Short explanation of what the Madrasah entails, when it’s held and other necessary infomation",
-			"color": "#FBB400"
+			"color": "#FBB400",
+			"tag": "Weekly"
 		},
 		{
 			"name": "Freshers Orientation",
 			"img": "/programs.svg",
 			"desc": "Short explanation of what the Madrasah entails, when it’s held and other necessary infomation",
-			"color": "#FF5A5F"
+			"color": "#FF5A5F",
+			"tag": "Adhoc"
 		},
 		{
 			"name": "Madrasah",
 			"img": "/programs.svg",
 			"desc": "Short explanation of what the Madrasah entails, when it’s held and other necessary infomation",
-			"color": "#907CFF"
+			"color": "#907CFF",
+			"tag": "Regular"
 		},
 		{
 			"name": "Faculty Forum",
 			"img": "/programs.svg",
 			"desc": "Short explanation of what the Madrasah entails, when it’s held and other necessary infomation",
-			"color": "#FBB400"
+			"color": "#FBB400",
+			"tag": "Regular"
 		}
 	],
 	"FAQs": [
