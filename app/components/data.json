@@ -133,27 +133,27 @@
 			"body": [
 				{
 					"value": "About Us",
-					"link": "/pages/about"
+					"link": "/about"
 				},
 				{
 					"value": "Our Programs",
-					"link": "/pages/programs"
+					"link": "/programs"
 				},
 				{
 					"value": "Academics",
-					"link": "/pages/academics"
+					"link": "/academics"
 				},
 				{
 					"value": "Islam",
-					"link": "/pages/islam"
+					"link": "/islam"
 				},
 				{
 					"value": "Blogs",
-					"link": "/pages/blogs"
+					"link": "/blogs"
 				},
 				{
 					"value": "Newsletters",
-					"link": "/pagse/newsletters"
+					"link": "/newsletters"
 				}
 			]
 		},
@@ -191,12 +191,12 @@
 			"heading": "Download",
 			"body": [
 				{
-					"value": "/playstore.svg",
-					"link": "/"
+					"value": "playstore",
+					"link": "/playstore.svg"
 				},
 				{
-					"value": "/appstore.svg",
-					"link": "/"
+					"value": "appstore",
+					"link": "/appstore.svg"
 				}
 			]
 		}
