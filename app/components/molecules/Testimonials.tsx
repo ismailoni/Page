@@ -23,7 +23,7 @@ export default function Testimonials() {
 					author="Fareedah Bello"
 					dep="English Education"
 					lvl="200 Level"
-					img="/aisha.svg"
+					img="https://ui-avatars.com/api/?name=Fareedah+Bello&background=0D8ABC&color=fff&rounded=true"
 				/>
 
 				<TestimonialCard
@@ -33,7 +33,7 @@ export default function Testimonials() {
 					author="Abdulkareem Abdul Quddus "
 					dep="Pet and Gas."
 					lvl="300 Level"
-					img="/ahmed.svg"
+					img="https://ui-avatars.com/api/?name=Abdulkareem+Abdul+Quddus&background=0D8ABC&color=fff&rounded=true"
 				/>
 			</div>
 

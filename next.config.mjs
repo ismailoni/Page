@@ -10,6 +10,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
+    images: {
+    domains: ['ui-avatars.com'],
+    }
     // swcMinify: true,
     // Add any other custom configurations here
   };
