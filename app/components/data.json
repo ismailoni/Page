@@ -111,8 +111,8 @@
 			"heading": "Contact",
 			"body": [
 				{
-					"value": "mssnunilag@gmail.com",
-					"link": "mssnunilag@gmail.com"
+					"value": "mssnunilagbranch@gmail.com",
+					"link": "mailto:mssnunilagbranch@gmail.com"
 				},
 				{
 					"value": "Amir",
@@ -137,23 +137,23 @@
 				},
 				{
 					"value": "Our Programs",
-					"link": "/programs"
+					"link": "/"
 				},
 				{
 					"value": "Academics",
-					"link": "/academics"
+					"link": "/"
 				},
 				{
 					"value": "Islam",
-					"link": "/islam"
+					"link": "/"
 				},
 				{
 					"value": "Blogs",
-					"link": "/blogs"
+					"link": "/"
 				},
 				{
 					"value": "Newsletters",
-					"link": "/newsletters"
+					"link": "/"
 				}
 			]
 		},
@@ -178,11 +178,7 @@
 			"heading": "Office",
 			"body": [
 				{
-					"value": "Room 3, Department of Finance, Faculty of Management Sciences, University of Lagos, Akoka, Lagos State, Nigeria.",
-					"link": "/"
-				},
-				{
-					"value": "Academic Drive",
+					"value": "University of Lagos Central Mosque, University of Lagos, Akoka, Lagos State, Nigeria.",
 					"link": "/"
 				}
 			]

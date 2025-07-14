@@ -37,8 +37,6 @@ export default function MVP() {
 				style={{
 					width: "100%",
 					margin: "8rem 0",
-					// border:
-					// 	"5px solid linear-gradient(to right, #beeade00, #beeade, #beeade00)",
 				}}
 			/>
 			<MVPCard
@@ -50,13 +48,12 @@ export default function MVP() {
 				<p className="section-heading">GUIDANCE OF WISDOM</p>
 				<h2>Mentorship, Support, Excellence</h2>
 				<p>
-				Our Staff Adviser, a distinguished professor in Cell Biology and Genetics, has profoundly impacted MSSN UNILAG over his five years of service. As the President of UMA and Director of the School of Foundation Studies, he has provided invaluable guidance, mentorship, and support.
+				A distinguished professor in Cell Biology and Genetics, has profoundly impacted MSSN UNILAG over his five years of service. As the President of UMA and Director of the School of Foundation Studies, he has provided invaluable guidance, mentorship, and support.
 				</p>
 				<p>
 				His efforts have enhanced our organizational development, and promoted Islamic values. His insights have been instrumental in shaping the strategic direction and activities of the society. Whether it&apos;s offering advice on event planning, organizational structure, or member engagement, his mentorship has been a cornerstone of our success.
 				</p>
 				<p>Under his leadership, MSSN UNILAG has grown significantly, benefiting from his extensive experience and dedication.</p>
-				<p>Staff Adviser, 2023/2024</p>
 			</MVPCard>
 		</div>
 	);

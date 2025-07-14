@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 export default function Support() {
@@ -13,9 +14,11 @@ export default function Support() {
 				Can&apos;t find the answer you&apos;re looking for? Please contact our support.
 			</p>
 			</div>
-			<button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md font-medium transition-all">
-				Get in Touch <ArrowRight size={20} className="inline ml-2" />
-			</button>
+			<Link href="mailto:mssnunilagbranch">
+				<button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md font-medium transition-all">
+					Get in Touch <ArrowRight size={20} className="inline ml-2" />
+				</button>
+			</Link>
 		</div>
 		</div>
 	);

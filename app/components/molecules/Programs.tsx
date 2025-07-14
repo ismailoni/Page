@@ -1,21 +1,23 @@
 "use client";
+
 import Image from "next/image";
 import data from "@/app/components/data.json";
 import { BsDot } from "react-icons/bs";
 import { MdArrowForward, MdArrowBack } from "react-icons/md";
 import React, { useRef, useState, useEffect } from "react";
 import { ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function Programs() {
   const { programs } = data;
   const scrollRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const cardWidth = 280; // Adjust to actual card width + margin
+  const cardWidth = 280; // Adjust if needed
 
   const scroll = (direction: "left" | "right") => {
     if (scrollRef.current) {
-      const { scrollLeft, clientWidth } = scrollRef.current;
+      const { scrollLeft } = scrollRef.current;
       const newScroll = direction === "left" ? scrollLeft - cardWidth : scrollLeft + cardWidth;
       scrollRef.current.scrollTo({ left: newScroll, behavior: "smooth" });
 
@@ -24,7 +26,6 @@ export default function Programs() {
     }
   };
 
-  // Update active dot on manual scroll
   useEffect(() => {
     const container = scrollRef.current;
     if (!container) return;
@@ -53,8 +54,8 @@ export default function Programs() {
           MSSN Unilag.
         </p>
       </div>
+
       <div className="flex px-4 justify-end gap-2">
-        {/* Left Arrow */}
         <button
           onClick={() => scroll("left")}
           className="bg-green-500 text-white rounded-full shadow-md p-2 z-10"
@@ -62,7 +63,6 @@ export default function Programs() {
           <MdArrowBack size={20} />
         </button>
 
-        {/* Right Arrow */}
         <button
           onClick={() => scroll("right")}
           className="bg-green-500 text-white rounded-full shadow-md p-2 z-10"
@@ -70,16 +70,21 @@ export default function Programs() {
           <MdArrowForward size={20} />
         </button>
       </div>
+
       <div className="relative">
-        {/* Cards container */}
         <div
           ref={scrollRef}
           className="p-4 flex gap-1 max-w-[1200px] w-full my-8 md:flex-row overflow-x-auto scrollbar-hide scroll-smooth"
         >
           {programs.map((value, index) => (
-            <div
+            <motion.div
               key={index}
-              className="border border-[#BEEADE] flex flex-col justify-center items-center rounded-lg gap-6 mx-2 max-w-[250px]  flex-shrink-0 bg-white  shadow-lg transition-transform duration-300"
+              className="border border-[#BEEADE] flex flex-col justify-center items-center rounded-xl gap-6 mx-2 max-w-[250px] flex-shrink-0 bg-white shadow-lg"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              whileHover={{ scale: 1.05 }}
             >
               <Image
                 src={value.img}
@@ -107,12 +112,11 @@ export default function Programs() {
                   {value.tag}
                 </span>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
 
-      {/* Dots */}
       <div className="flex justify-center mt-4 space-x-2">
         {programs.map((_, index) => (
           <div
@@ -125,9 +129,9 @@ export default function Programs() {
       </div>
 
       <div className="flex justify-center mt-8">
-        <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md font-medium transition-all">
+        {/* <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md font-medium transition-all">
           Explore All Programs <ArrowRight size={20} className="inline ml-2" />
-        </button>
+        </button> */}
       </div>
     </section>
   );

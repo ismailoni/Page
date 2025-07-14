@@ -17,7 +17,6 @@ export default function Footer() {
         <Lists heading={others.heading} lists={others.body} />
         <div className="flex flex-col gap-6 min-w-[150px]">
           <Lists heading={office.heading} lists={office.body} />
-          <DownloadLists heading={downloads.heading} lists={downloads.body} />
         </div>
       </div>
 
@@ -32,10 +31,10 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-wrap justify-center md:justify-start gap-4">
-          <SocialIcon href="https://linkedin.com" Icon={FaLinkedin} label="LinkedIn" />
-          <SocialIcon href="https://facebook.com" Icon={FaFacebook} label="Facebook" />
-          <SocialIcon href="https://instagram.com" Icon={FaInstagram} label="Instagram" />
-          <SocialIcon href="https://x.com" Icon={FaXTwitter} label="X (Twitter)" />
+          <SocialIcon href="https://ng.linkedin.com/company/mssn-unilag" Icon={FaLinkedin} label="LinkedIn" />
+          <SocialIcon href="https://www.facebook.com/mssnunilagbranch/" Icon={FaFacebook} label="Facebook" />
+          <SocialIcon href="https://www.instagram.com/mssn_unilag/?hl=en" Icon={FaInstagram} label="Instagram" />
+          <SocialIcon href="https://x.com/unilag_mssn" Icon={FaXTwitter} label="X (Twitter)" />
         </div>
       </div>
     </footer>
@@ -61,31 +60,6 @@ function Lists({
             >
               {item.value}
             </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-function DownloadLists({
-  heading,
-  lists,
-}: {
-  heading: string;
-  lists: { value: string; link: string }[];
-}) {
-  return (
-    <div className="flex-1 min-w-[150px]">
-      <h4 className="font-semibold mb-2">{heading}</h4>
-      <ul className="space-y-1 flex gap-2 items-baseline">
-        {lists.map((item, i) => (
-          <li key={i} className="max-w-[290px] text-sm">
-            <Image
-              src={item.link}
-              alt={item.value}
-              width={130}
-              height={35}
-             />
           </li>
         ))}
       </ul>
