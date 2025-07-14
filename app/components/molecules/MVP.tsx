@@ -48,7 +48,7 @@ export default function MVP() {
 				<p className="section-heading">GUIDANCE OF WISDOM</p>
 				<h2>Mentorship, Support, Excellence</h2>
 				<p>
-				A distinguished professor in Cell Biology and Genetics, has profoundly impacted MSSN UNILAG over his five years of service. As the President of UMA and Director of the School of Foundation Studies, he has provided invaluable guidance, mentorship, and support.
+				A distinguished professor in Cell Biology and Genetics, has profoundly impacted MSSN UNILAG over his five years of service. As the Ex-President of UMA and Director of the School of Foundation Studies, he has provided invaluable guidance, mentorship, and support.
 				</p>
 				<p>
 				His efforts have enhanced our organizational development, and promoted Islamic values. His insights have been instrumental in shaping the strategic direction and activities of the society. Whether it&apos;s offering advice on event planning, organizational structure, or member engagement, his mentorship has been a cornerstone of our success.
