@@ -23,13 +23,20 @@ export default function CoreValues() {
 	// Variants for each card
 	const cardVariants = {
 		hidden: { opacity: 0, y: 30 },
-		show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.4, 0, 0.2, 1] } },
+		show: {
+			opacity: 1,
+			y: 0,
+			transition: {
+				duration: 0.5,
+				ease: [0.4, 0, 0.2, 1] as [number, number, number, number],
+			},
+		},
 	};
 
 	return (
 		<section id="2" className="mysection bg-white">
 			<div className="text-section">
-				<p className="subheading text-[#OF9932]">OUR CORE VALUES</p>
+				<p className="subheading text-[#0F9932]">OUR CORE VALUES</p>
 				<h2 className="text-[#141414]">Guiding Lights, in Every Step</h2>
 				<p className="text-[#888888]">
 					At MSSN Unilag, our core values are the foundation of our community.
