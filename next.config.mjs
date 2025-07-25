@@ -1,25 +1,13 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {};
+import type { NextConfig } from "next";
 
-// export default nextConfig;
+const nextConfig: NextConfig = {
+  output:"export",
+  images: {
+    unoptimized: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+};
 
-
-
-
-// next.config.js
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    output: "export",
-    reactStrictMode: true,
-    images: {
-    domains: ['ui-avatars.com'],
-    },
-    eslint: {
-      ignoreDuringBuilds: true,
-    },
-    // swcMinify: true,
-    // Add any other custom configurations here
-  };
-  
-  export default nextConfig;
-  
+export default nextConfig;
